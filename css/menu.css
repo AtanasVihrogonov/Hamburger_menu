@@ -69,11 +69,7 @@
 .menu-wrap .toggler:checked + .hamburger > div:before,
 .menu-wrap .toggler:checked + .hamburger > div:after {
   top: 0;
-  transform: rotate(90deg);.menu-wrap {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  transform: rotate(90deg);
 }
 
 .menu-wrap .toggler {
@@ -214,13 +210,11 @@
   color: var(--secondary-color);
 }
 
-
- 
-
-
-
-
-
+.menu-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 /* Rotate On Hover When Checked */
